@@ -18,7 +18,7 @@
 * REVISION HISTORY
 * Version 0.1 - Ralph Bisschops (first alpha release)
 * Version 0.2 - Ralph Bisschops (second alpha release)
-* Version 0.3 - Ralph BIsschops (updated EEPROM procedures)
+* Version 0.3 - Ralph Bisschops (updated EEPROM procedures)
 *
 * DESCRIPTION
 * Use the TCRT5000 sensor to measure volume and flow of your house watermeter.
