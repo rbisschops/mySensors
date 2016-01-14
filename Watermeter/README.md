@@ -14,5 +14,5 @@ External dependencies:
 - Kicad Pcbnew
 
 License:
-CERN Open Hardware License
+[CERN Open Hardware Licence v1.2](http://ohwr.org/cernohl)
 
