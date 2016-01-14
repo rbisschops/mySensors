@@ -12,3 +12,7 @@ http://forum.mysensors.org/topic/2522/water-meter-itron-aquadis-with-pulse-senso
 External dependencies:
 - KiCad schematics editor 
 - Kicad Pcbnew
+
+License:
+CERN Open Hardware License
+
