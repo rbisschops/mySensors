@@ -34,8 +34,8 @@
 * to calculate/report flow.
 */
 
-#include <MySensor.h>
 #include <SPI.h>
+#include <MySensor.h>
 
 // Node and sketch information
 #define SKETCH_VER            "0.3"				// Sketch version
@@ -105,7 +105,7 @@ void setup()
 
 	// Fetch debug level from EEPROM
 	debugLevel = gw.loadState(4);
-	debugMessage("Debug level fetched from EEPROM, value: ", String (debugLevel));
+	debugMessage("Debug level fetched from EEPROM, value: ", String(debugLevel));
 
 	// Fetch the last set thresholds from EEPROM
 	int high = readEeprom(0); //gw.loadState (0);
@@ -183,10 +183,10 @@ void loop()
 
 void debugMessage(String header, String content)
 {
-		// DEBUG code ------
-		Serial.print(header);
-		Serial.println(content);
-		// DEBUG code ------   
+	// DEBUG code ------
+	Serial.print(header);
+	Serial.println(content);
+	// DEBUG code ------   
 }
 
 void incomingMessage(const MyMessage &message)
@@ -197,27 +197,27 @@ void incomingMessage(const MyMessage &message)
 		pulseCount += gwPulseCount;
 		flow = oldflow = 0;
 		debugMessage("Received last pulse count from gw: ", String(pulseCount));
-		pcReceived = true; 
+		pcReceived = true;
 	}
-	break;
+				 break;
 	case V_VAR2: {
 		highThreshold = message.getULong();
 		storeEeprom(0, highThreshold);
 		debugMessage("Received new high threshold from gw: ", String(highThreshold));
 	}
-	break;
+				 break;
 	case V_VAR3: {
 		lowThreshold = message.getULong();
 		storeEeprom(2, lowThreshold);
 		debugMessage("Received new low threshold from gw: ", String(lowThreshold));
 	}
-	break;
+				 break;
 	case V_VAR4: {
 		debugLevel = message.getULong();
 		gw.saveState(4, debugLevel);
 		debugMessage("Received new debug state from gw: ", String(debugLevel));
 	}
-	break;
+				 break;
 	default: {
 		debugMessage("Received invalid message from gw! ", "");
 	}
@@ -285,7 +285,7 @@ void checkThreshold() {
 	if ((sensorState == true) && (sensorValue < lowThreshold)) {
 		pulseCount++;
 		sensorState = !sensorState;
-		debugMessage("pulsCount + 1","");
+		debugMessage("pulsCount + 1", "");
 		debugMessage("Sensor state: ", String(sensorState));
 	}
 	if ((sensorState == false) && (sensorValue > highThreshold)) {
@@ -302,8 +302,8 @@ int getAverage()
 	int average = 0;    // variable to store the peak value
 	int count = 0;       // variable for loop
 
-	// take 10 samples over half a second 
-	// for each sample the input is taken 10 times
+						 // take 10 samples over half a second 
+						 // for each sample the input is taken 10 times
 	for (cycles = 0; cycles < 10; cycles++) {
 		// read input 10 times and get the sum
 		// "ANALOG_INPUT_SENSOR" was defined in main program as shown below:
@@ -327,4 +327,3 @@ int getAverage()
 	// return the value of average to main program
 	return average;
 }
-
