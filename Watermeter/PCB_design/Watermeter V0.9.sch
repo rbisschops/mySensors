@@ -1,7 +1,6 @@
 EESchema Schematic File Version 2
-LIBS:MySensors
+LIBS:Watermeter V0.9-rescue
 LIBS:Power
-LIBS:Watermeter V0.7-rescue
 LIBS:device
 LIBS:transistors
 LIBS:conn
@@ -30,7 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Watermeter V0.7-cache
+LIBS:MySensors
+LIBS:Watermeter V0.9-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1173,7 +1173,7 @@ F 3 "" H 7050 900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR034
+L +5V-RESCUE-Watermeter_V0.9 #PWR034
 U 1 1 569259C2
 P 3300 950
 F 0 "#PWR034" H 3300 800 50  0001 C CNN
@@ -1184,7 +1184,7 @@ F 3 "" H 3300 950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR035
+L +5V-RESCUE-Watermeter_V0.9 #PWR035
 U 1 1 56928B61
 P 8550 950
 F 0 "#PWR035" H 8550 800 50  0001 C CNN
@@ -1195,7 +1195,7 @@ F 3 "" H 8550 950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR036
+L +5V-RESCUE-Watermeter_V0.9 #PWR036
 U 1 1 56928BBD
 P 9150 950
 F 0 "#PWR036" H 9150 800 50  0001 C CNN
@@ -1206,7 +1206,7 @@ F 3 "" H 9150 950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR037
+L +5V-RESCUE-Watermeter_V0.9 #PWR037
 U 1 1 56928C19
 P 9800 950
 F 0 "#PWR037" H 9800 800 50  0001 C CNN
@@ -1217,7 +1217,7 @@ F 3 "" H 9800 950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR038
+L +5V-RESCUE-Watermeter_V0.9 #PWR038
 U 1 1 5692B55B
 P 1850 2900
 F 0 "#PWR038" H 1850 2750 50  0001 C CNN
@@ -1228,7 +1228,7 @@ F 3 "" H 1850 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR039
+L +5V-RESCUE-Watermeter_V0.9 #PWR039
 U 1 1 5692CE9C
 P 8600 2900
 F 0 "#PWR039" H 8600 2750 50  0001 C CNN
@@ -1239,7 +1239,7 @@ F 3 "" H 8600 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR040
+L +5V-RESCUE-Watermeter_V0.9 #PWR040
 U 1 1 5692D01D
 P 3550 2900
 F 0 "#PWR040" H 3550 2750 50  0001 C CNN
@@ -1250,7 +1250,7 @@ F 3 "" H 3550 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR041
+L +5V-RESCUE-Watermeter_V0.9 #PWR041
 U 1 1 5692D0E6
 P 7700 2900
 F 0 "#PWR041" H 7700 2750 50  0001 C CNN
@@ -1261,7 +1261,7 @@ F 3 "" H 7700 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR042
+L +5V-RESCUE-Watermeter_V0.9 #PWR042
 U 1 1 5692D1F9
 P 3800 4600
 F 0 "#PWR042" H 3800 4450 50  0001 C CNN
@@ -1272,7 +1272,7 @@ F 3 "" H 3800 4600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR043
+L +5V-RESCUE-Watermeter_V0.9 #PWR043
 U 1 1 5692D2C2
 P 9200 2900
 F 0 "#PWR043" H 9200 2750 50  0001 C CNN
@@ -1283,7 +1283,7 @@ F 3 "" H 9200 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR044
+L +5V-RESCUE-Watermeter_V0.9 #PWR044
 U 1 1 5692D38F
 P 9600 2900
 F 0 "#PWR044" H 9600 2750 50  0001 C CNN
@@ -1294,7 +1294,7 @@ F 3 "" H 9600 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR045
+L +5V-RESCUE-Watermeter_V0.9 #PWR045
 U 1 1 5692D458
 P 4650 2900
 F 0 "#PWR045" H 4650 2750 50  0001 C CNN
@@ -1305,7 +1305,7 @@ F 3 "" H 4650 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR046
+L +5V-RESCUE-Watermeter_V0.9 #PWR046
 U 1 1 5692D546
 P 8050 2900
 F 0 "#PWR046" H 8050 2750 50  0001 C CNN
@@ -1316,7 +1316,7 @@ F 3 "" H 8050 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR047
+L +5V-RESCUE-Watermeter_V0.9 #PWR047
 U 1 1 5692D634
 P 6850 2900
 F 0 "#PWR047" H 6850 2750 50  0001 C CNN
