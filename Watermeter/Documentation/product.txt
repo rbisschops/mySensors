@@ -1,0 +1,27 @@
+PRODUCT
+
+mySensors Watermeter
+
+Adapted mySensors Arduino sketch for measuring pulses on a (standard) household watermeter.
+
+The development was initially done for a Itron Aquadis+ watermeter, but can be adapted for any other watermeter that has the ability to read one of the rotating counters externally.
+
+For dicussion on this project, visit the mySensors forum thread.
+https://sf.mysensors.org/topic/2816/itron-aquadis-watermeter-sensor
+
+
+Files can be found on github and openhardware.io
+https://github.com/rbisschops/mySensors
+
+https://www.openhardware.io/view/15/Itron-Aquadis-watermeter-sensor
+
+External dependencies:
+KiCad schematics editor and Kicad Pcbnew
+
+License: 
+CERN Open Hardware Licence v1.2
+
+
+If you use and change this design, you are free to do so, but let me know via a message on the forum at OpenHardware.io
+
+Ralph Bisschops

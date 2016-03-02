@@ -1,0 +1,15 @@
+CERN Open Hardware Licence v1.2 
+
+Not sure what to put here.
+If you change anything, just le me know (so I can learn from it).
+
+Version 0.9: 
+Minor changes to board layout
+
+Version 0.10: 
+Changed connection of inputs on LM393 (swapped)
+Added addional optional resistor for pull up of NRF24 CSN pin (pin 4)
+Changed value of R1 to 1K
+Changed value of R4 to 180
+ 
+

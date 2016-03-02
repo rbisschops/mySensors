@@ -1,0 +1,28 @@
+Id;Designator;Package/Footprint;Qty;Value;Supplier ;Supplier ref.
+1;R1;0603;1;1K;Aliexpress;0603 SMD Resistor Kit 1% 10ohm to 910Kohm
+2;R2,R3;0603;2;56K;Aliexpress;0603 SMD Resistor Kit 1% 10ohm to 910Kohm
+3;R4;0603;1;180;Aliexpress;0603 SMD Resistor Kit 1% 10ohm to 910Kohm
+4;R5,R7;0603;2;10K;Aliexpress;0603 SMD Resistor Kit 1% 10ohm to 910Kohm
+5;R6;Potentiometer Custom Inline ScrewUp;1;10K;Aliexpress;10k Ohm 3296W Potentiometer Trim Trimmer Variable Resistor 25 Turn Pot
+6;R8;0603;2;1K;Aliexpress;0603 SMD Resistor Kit 1% 10ohm to 910Kohm
+7;C1,C4,C5,C7,C8,C10,C11,C12,C13;0603;9;100nF;Aliexpress;100nF X7R Error 10% 50V 0603 SMD Thick Film Chip Multilayer Ceramic Capacitor
+8;C2;6.3x5.3;1;47uF;Aliexpress;47uF-35V-6-3-5-4-SMD-aluminum-Electrolytic capacitor
+9;C3,C6;5x5.3;2;10uF;Aliexpress;25V 10UF SMD 4x5.4mm chip Aluminum-Electrolytic capacitor
+10;C9;5x5.3;1;4u7;Aliexpress;16V-4-7UF-SMD-4x5mm-Aluminum-Electrolytic capacitor
+11;D1;DO-214AC;1;1N4007 M7;Aliexpress; SMD 1N4007 Rectifier Diode 1A 1000V M7 Original
+12;D2;1206;1;SMD LED;Aliexpress;1206-SMD-White-Red-Blue-Green-Yellow Super-Bright
+13;D3;1206;1;SMD LED;Aliexpress;1206-SMD-White-Red-Blue-Green-Yellow Super-Bright
+14;U1;SOT-223;1;AP1117D50;Aliexpress;AMS1117-5.0 SOT-223 5 V Lineaire Regulator LM1117
+15;U2;SOT-223;1;AP1117D33;Aliexpress;AMS1117-3.3 SOT-223 3.3 V Lineaire Regulator LM1117
+16;U3;SOT-23;1;ATSHA240A;Digi-Key;Atmel ATSHA204A-STUCZ-T : Partnr: ATSHA204A-STUCZ-TCT-ND
+17;U4;SOIC-8-N;1;AT25DF512C;Digi-Key;Adesto Technologies AT25DF512C-SSHN-B : Partnr: 1265-1179-5-ND
+18;U5;TCRT5000;1;TCRT5000;Aliexpress;TCRT5000L TCRT5000 Reflective Infrared Optical Sensor Photoelectric Switche
+19;U6;SOIC-8-N;1;LM393;Aliexpress;LM393DR-LM393-SOP-8-TI
+20;U7;Header 1x4 pin;1;CONN_01X04;Aliexpress;Single Row Straight Female Pin Header Connector Strip for Arduino High Quality 2.54mm Black OH
+21;REF1;Module;2;CONN_01X12 + CONN_01x02;Aliexpress;Single Row Straight Female Pin Header Connector Strip for Arduino High Quality 2.54mm Black OH
+22;REF2;Header 2x4 pin;1;NRF24L01;Aliexpress;2x4 Pin 8P 2.54mm Double Row Female Straight Header Pitch
+23;CONN1;Socket Jack5.5/2.1MM;1;CONN_01X02;Aliexpress;3 Pin DC Power Socket Jack DC005 5.5-2.1MM DC Power Interface Outlet
+24;P1;Header 2x3 pin;1;CONN_02X03;Aliexpress;2.54mm 2x40 Pin Male Double Row Pin Header Strip
+25;NRF24L01;Module;1;NRF24L01;Aliexpress;NRF24L01 2.4GHz Wireless Transceiver Module - Black
+26;Arduino_Mini_Pro 5V;Module;1;Arduino_Mini_Pro 5V;Aliexpress;ATMEGA328P Pro Mini 328 Mini ATMEGA328 5V/16MHz for Arduino
+27;SI7021;Module;1;SI7021;Aliexpress;Industrial High Precision Si7021 Humidity Sensor with I2C Interface for Arduino
