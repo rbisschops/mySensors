@@ -22,6 +22,9 @@ License:
 CERN Open Hardware Licence v1.2
 
 
-If you use and change this design, you are free to do so, but let me know via a message on the forum at OpenHardware.io
+If you use and change this design, you are free to do so, but let me know
+
+via a message on the forum at OpenHardware.io or
+via email ralph@bisschops-online.com
 
 Ralph Bisschops

@@ -1,0 +1,31 @@
+PRODUCT
+
+mySensors Gateway
+
+mySensors Gateway based on Arduino Nano. The board is designed as Raspberry Pi form factor. There are two versions of the board. 
+One for the standard widely available W5100 module and 
+one for the more expensive and harder te get WI811MJ of WIZnet 
+
+For dicussion on this project, visit the mySensors forum thread.
+https://sf.mysensors.org/topic/xxxxx
+
+
+Files can be found on github and openhardware.io
+https://github.com/rbisschops/mySensors
+
+https://www.openhardware.io/xxxxx
+
+External dependencies:
+KiCad schematics editor and Kicad Pcbnew
+
+License: 
+CERN Open Hardware Licence v1.2
+
+
+If you use and change this design, you are free to do so, but let me know 
+
+via a message on the forum at OpenHardware.io or 
+
+via email ralph@bisschops-online.com
+
+Ralph Bisschops

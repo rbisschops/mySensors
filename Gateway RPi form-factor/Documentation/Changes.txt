@@ -1,0 +1,16 @@
+CERN Open Hardware Licence v1.2
+
+
+If you change anything, just le me know (so I can learn from it).
+
+Version 0.6: 
+Board layout Raspberry Pi form factor
+
+Version 0.7: 
+Added addional (optional) resistor for pull up of NRF24 CSN pin (pin 4)
+Changed value of R2,R3,R4,R5 to 1K
+Changed inclusion header to switch
+
+Version 0.7 WIZ811MJ:
+Changed the standaard W5100 to an WI811MJ model 
+
